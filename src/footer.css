@@ -1,0 +1,71 @@
+footer {
+  display: flex;
+  padding: 50px;
+  position: sticky;
+  background-color: white;
+}
+
+.footer_formulario {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+  p {
+    text-align: center;
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    button {
+      border: 2px solid;
+      border-radius: 10px;
+      padding: 5px 10px;
+      font-size: 20px;
+      transition: 0.5s;
+
+      &:hover {
+        background-color: black;
+        color: white;
+      }
+    }
+    input {
+      border: 2px solid;
+      border-radius: 10px;
+      padding: 5px 10px;
+      font-size: 20px;
+      transition: 0.5s;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+}
+
+.footer_accesos {
+  display: flex;
+  width: 60%;
+  .footer_accesos_info {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    font-size: 2s0px;
+
+    a {
+      padding: 5px 10px;
+      border-radius: 10px;
+      transition: 0.5s;
+
+      &:hover {
+        background-color: black;
+        color: white;
+      }
+    }
+  }
+}
