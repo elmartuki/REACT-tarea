@@ -13,6 +13,7 @@ export default function Footer() {
           </form>
         </div>
         <div className="footer_accesos">
+          <p>Enlaces rapidos</p>
           <div className="footer_accesos_info">
             <a href="">Sobre Nosotros</a>
             <a href="">Contacto</a>

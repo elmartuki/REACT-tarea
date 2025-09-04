@@ -9,7 +9,7 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Header />
 
-    <Section></Section>
+    <Section />
 
     <Footer />
   </StrictMode>
